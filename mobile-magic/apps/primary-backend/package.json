@@ -1,0 +1,24 @@
+{
+  "name": "primary-backend",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "db": "*"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/express-prometheus-middleware": "^1.2.3",
+    "@types/jsonwebtoken": "^9.0.9",
+    "common": "*",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-prometheus-middleware": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "prom-client": "^15.1.3"
+  }
+}

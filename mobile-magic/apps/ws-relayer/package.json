@@ -1,0 +1,12 @@
+{
+  "name": "ws-relayer",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "common": "*"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
