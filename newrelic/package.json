@@ -1,0 +1,21 @@
+{
+  "name": "newrelic",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "newrelic": "^13.19.1",
+    "winston": "^3.19.0"
+  },
+  "scripts": {
+    "start": "NEW_RELIC_APPLICATION_LOGGING_FORWARDING_ENABLED=true NEW_RELIC_APP_NAME=simple-express NEW_RELIC_LICENSE_KEY=nj34534j34jhiqwfj45i node -r newrelic index.js"
+  }
+}
